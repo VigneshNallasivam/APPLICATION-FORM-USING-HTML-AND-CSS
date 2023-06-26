@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application-form-page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><b>APPLICATION FORM</b></legend>
+            <div class="formrow">
+                <div class="formrowinside">
+                    <label for="fname">First Name:</label>
+                    <input class="input1 shadow" type="text submit" pattern="[A-Z]{1}[a-z]{1,}" id="fname" name="fname"
+                        placeholder="Enter your first name...">
+                </div>
+                <div class="formrowinside1">
+                    <label for="lname">Last Name:</label>
+                    <input class="input1 shadow" type="text submit" pattern="[A-Z]{1}[a-z]{1,}" id="lname" name="lname"
+                        placeholder="Enter your first name...">
+                </div>
+            </div>
+
+            <label>Gender</label>
+            <input class="myradio" type="radio" id="gender" name="gender" value="male">Male
+            <input class="myradio" type="radio" id="gender" name="gender" value="female">Female
+            <input class="myradio" type="radio" id="gender" name="gender" value="others">Others
+
+            <label for="birthday">Birthday</label>
+            <input class="shadow" type="date" id="birthday" name="birthday">
+
+            <label for="course">Course</label>
+            <div class="allside">
+                <div class="sides">
+                    <div class="insides1">
+                        <input class="mycheckbox" type="checkbox" id="ece" name="ece">
+                        <label class="mycheckbox fontrange" for="ece">ECE</label>
+                        <input class="mycheckbox" type="checkbox" id="eee" name="eee">
+                        <label class="mycheckbox fontrange" for="eee">EEE</label>
+                    </div>
+
+                    <div class="insides2">
+                        <input class="mycheckbox" type="checkbox" id="cse" name="cse">
+                        <label class="mycheckbox fontrange" for="cse">CSE</label>
+                        <input class="mycheckbox" type="checkbox" id="mech" name="mech">
+                        <label class="mycheckbox fontrange" for="mech">MECH</label>
+                    </div>
+
+                    <div class="insides3">
+                        <input class="mycheckbox" type="checkbox" id="it" name="it">
+                        <label class="mycheckbox fontrange" for="it">IT</label>
+                        <input class="mycheckbox" type="checkbox" id="civil" name="civil">
+                        <label class="mycheckbox fontrange" for="civil">CIVIL</label>
+                    </div>
+                </div>
+            </div>
+
+            <label>City</label>
+            <select class="shadow" multiple>
+                <option value="chennai">Chennai</option>
+                <option value="erode">Erode</option>
+                <option value="coimbatore">Coimbatore</option>
+                <option value="madurai">Madurai</option>
+                <option value="theni">Theni</option>
+                <option value="karur">Karur</option>
+                <option value="tirunelveli">Tirunelveli</option>
+            </select><br><br>
+
+            <div class="formrow">
+                <div class="formrowinside">
+                    <label>Mobile-No</label>
+                    <input class="input1 shadow" type="text submit" pattern="[789][0-9]{9}" id="mobile" name="mobile" placeholder="Enter your mobile no...">
+                </div>
+
+                <div class="formrowinside1">
+                    <label>Email-ID</label>
+                    <input class="input1 shadow" type="email submit" pattern="[a-z0-9]+[@][a-z]+[.][a-z]+" id="email"
+                        name="email" placeholder="Enter your email address...">
+                </div>
+            </div>
+
+            <label>Image Upload</label>
+            <input class="shadow" type="file" id="file" accept="image/*,audio/*,video/*,.pdf,.txt,.xlsx,.csv" multiple="multiple">
+
+            <label for="address">Address</label>
+            <textarea class="shadow" rows="4" cols="109" minlength="10" maxlength="20" style="border-radius: 10px; resize: none;"
+                placeholder="Enter your Address here..."></textarea><br><br><br>
+
+            <div class="button_parent">
+                <button class="button-submit" type="submit">Submit</button>
+                <button class="button-reset" type="reset">Reset</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

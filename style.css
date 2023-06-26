@@ -1,0 +1,154 @@
+label {
+    width: 100%;
+    display: block;
+    font-weight:bolder;
+    text-transform: capitalize;
+    color: rgb(3, 48, 33);
+    margin-bottom:1%;
+}
+
+
+input {
+    width: 95%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+.shadow{
+    box-shadow: 1px 1px 1px 1px #a5f8ed;
+}
+
+.input1 {
+    padding: 2%;
+}
+
+.formrow{
+    display: flex;
+}
+
+.formrowinside {
+    display: flex;
+    margin-right:20px;
+    width: 80%;
+    display: block;
+}
+
+.formrowinside1 {
+    display: flex;
+    margin-right:20px;
+    width: 80%;
+    display: block;
+}
+
+.fontrange{
+    font-weight: lighter;
+}
+
+body {
+    background-color:white;
+}
+
+form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.button_parent {
+    text-align: center;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    width: 12%;
+    border-radius: 10px;
+}
+
+.button-submit:hover{
+    background-color: rgb(121, 248, 121);
+}
+
+.button-reset:hover{
+    background-color:rgb(243, 158, 175);
+}
+
+
+.button-submit {
+    background-color: aquamarine;
+}
+
+.button-reset {
+    background-color: rgb(250, 210, 196);
+}
+
+fieldset {
+    padding-top: 20px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: black;
+    background-color: azure;
+    padding-left: 40px;
+}
+
+input[type="radio"].myradio {
+    width: 5%
+}
+
+.myradio {
+    display: inline;
+}
+
+.allside{
+    display: flex;
+}
+
+.sides {
+    width:20%;
+    margin-left: 2%;
+}
+
+.insides1{
+   display:flex;
+
+}
+
+.insides2{
+    display:flex;
+}
+
+.insides3{
+    display:flex;
+}
+
+.mycheckbox {
+    width: 20%;
+    display:flex;
+}
+
+legend {
+    color: black;
+    font-size: large;
+    background-color: azure;
+    border: 5px black;
+    border-style: double;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+select {
+    border: 1px solid #cccccc;
+    padding: 1%;
+    width: 97%;
+    border-radius: 10px;
+}
+
+/* .spacealign{
+    display:flex;
+    
+} */
